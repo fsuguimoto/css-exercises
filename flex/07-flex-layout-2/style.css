@@ -7,6 +7,7 @@ body {
   flex-direction: column;
 }
 
+/* Star - CSS on the list and link elements */
 a {
   color: white;
   text-decoration: none;
@@ -20,14 +21,15 @@ ul {
 }
 
 li {
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
+/* End - CSS on the list and link elements */
 
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
-  /* Solution */
+  /* New additions - Display flex, padding, and font styling */
   display: flex;
   align-items: center;
   font-size: 32px;
@@ -39,7 +41,7 @@ li {
   height: 72px;
   background: #eee;
   color: darkmagenta;
-  /* Display and solution */
+  /* New additions - Display flex */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -49,21 +51,21 @@ li {
 .sidebar {
   width: 300px;
   background: royalblue;
-  /* Display and solution */
+  /* New additions - No shrinking, and padding */
   flex-shrink: 0;
   padding: 16px;
 }
 
-/*Solution .body */
+/*New class .body. Add flex */
 .body {
   flex: 1;
   display: flex;
 }
 
-/* Solution .container */
-.containter {
+/* New additions to css - asking to wrap .container */
+.container {
   display: flex;
-  /*flex-wrap: wrap; */
+  flex-wrap: wrap; 
   padding: 32px;
 }
 
@@ -71,9 +73,8 @@ li {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  /* Display and solution */
     /* Padding and margins-  solution */
-  padding: 16px;
-  margin: 16px;
+  padding: 15px;
+  margin: 15px;
   width: 300px;
 }
